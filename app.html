@@ -80,39 +80,47 @@
         <div class="container-fluid pt-5 mt-5">
             <div class="content-wrap mt-5">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-2"></div>
+                    <div class="col-8">
                         <div class="card">
-                            <h1>Enter in Two Numbers and Print the Range</h1>
-                            <hr>
-                            <form>
-                                <div class="form-row">
-                                    <div class="col-auto">
-                                        <label>Enter Start Number</label>
-                                        <input type="number" id="numOne" value=1>
+                            <div class="card-head">
+                                <h1>Enter in Two Numbers and Print the Range</h1>
+                                <hr>
+                            </div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col-auto">
+                                            <label>Enter Start Number</label>
+                                            <input type="number" id="numOne" value=3>
+                                        </div>
+                                        <div class="col-auto">
+                                            <label>Enter Second Number</label>
+                                            <input type="number" id="numTwo" value=5>
+                                        </div>
+                                        <div class="col text-right">
+                                            <button id="submitBtn" type="button" class="btn btn-danger">Submit</button>
+                                        </div>
                                     </div>
-                                    <div class="col-auto">
-                                        <label>Enter Second Number</label>
-                                        <input type="number" id="numTwo" value=100>
-                                    </div>
-                                    <div class="col text-right">
-                                        <button id="submitBtn" type="button" class="btn btn-danger">Submit</button>
-                                    </div>
-                            </form>
-                            <hr>
-                            <table class="table table-striped table-responsive-lg" id="resultTable">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th colspan="10">Results</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="resultsBody">
-                                    <!--DATA GOES HERE-->
-                                    <!--<tr><td>...-->
-                                </tbody>
-                            </table>
+                                </form>
+                                <hr>
+                                <table class="table table-striped table-responsive-lg" id="resultTable">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th colspan="10">Results</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="resultsBody">
+                                        <!--DATA GOES HERE-->
+                                        <!--<tr><td>...-->
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-2"></div>
+                <div class="row mt-5"></div>
             </div>
         </div>
     </main>
@@ -125,15 +133,17 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="copyright-box">
-                        <p class="copyright">&copy; Copyright <strong>Shawna Russell</strong>. All Rights Reserved</p>
+                        <p class="copyright">&copy; Copyright <strong>Shawna Russell</strong>. All Rights
+                            Reserved</p>
                         <div class="credits">
                             <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: //bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: //bootstrapmade.com/buy/?theme=DevFolio
-            -->
-                            Designed by <a href="https://bootstrapmade.com/" target="blank">BootstrapMade Customized by
+                                        All the links in the footer should remain intact.
+                                        You can delete the links only if you purchased the pro version.
+                                        Licensing information: //bootstrapmade.com/license/
+                                        Purchase the pro version with working PHP/AJAX contact form: //bootstrapmade.com/buy/?theme=DevFolio
+                                    -->
+                            Designed by <a href="https://bootstrapmade.com/" target="blank">BootstrapMade
+                                Customized by
                                 Shawna Russell</a>
                         </div>
                     </div>
